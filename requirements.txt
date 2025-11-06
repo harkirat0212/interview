@@ -1,9 +1,9 @@
-# Core libraries
+# Core
 numpy==1.26.4
 pandas==2.3.3
 matplotlib==3.10.7
 
-# Streamlit UI
+# Streamlit app
 streamlit==1.38.0
 plotly==6.3.1
 
@@ -13,8 +13,7 @@ pydub==0.25.1
 librosa==0.11.0
 
 # Computer vision & face analysis
-opencv-python==4.11.0.86
-opencv-contrib-python==4.11.0.86
+opencv-python-headless==4.11.0.86
 deepface==0.0.95
 mediapipe==0.10.14
 mtcnn==1.0.0
@@ -27,22 +26,16 @@ spacy==3.7.5
 nltk==3.9.2
 torch==2.5.1
 tensorflow==2.17.0
-
-# Model utilities
-huggingface-hub==0.25.2
 scikit-learn==1.5.2
+huggingface-hub==0.25.2
 
-# Image & video utilities
+# Image/video utilities
 pillow==11.0.0
 moviepy==2.2.1
 
-# Web app and server
-flask==3.1.0
-flask-cors==4.0.1
+# YOLO object detection
+ultralytics==8.3.20
 
-# Other useful tools
+# Utility
 tqdm==4.66.5
 requests==2.32.3
-
-# Optional for YOLO-based detection (if using ultralytics)
-ultralytics==8.3.20
