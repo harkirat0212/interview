@@ -13,7 +13,6 @@ pydub==0.25.1
 librosa==0.11.0
 
 # Computer vision & face analysis
-opencv-python-headless==4.10.0.84
 opencv-contrib-python-headless==4.10.0.84
 deepface==0.0.95
 mediapipe==0.10.14
@@ -31,7 +30,7 @@ scikit-learn==1.5.2
 huggingface-hub==0.25.2
 
 # Image/video utilities
-pillow==11.0.0
+pillow==10.3.0
 moviepy==2.2.1
 
 # YOLO object detection
