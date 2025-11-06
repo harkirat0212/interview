@@ -13,7 +13,8 @@ pydub==0.25.1
 librosa==0.11.0
 
 # Computer vision & face analysis
-opencv-python-headless==4.11.0.86
+opencv-python-headless==4.10.0.84
+opencv-contrib-python-headless==4.10.0.84
 deepface==0.0.95
 mediapipe==0.10.14
 mtcnn==1.0.0
@@ -39,4 +40,5 @@ ultralytics==8.3.20
 # Utility
 tqdm==4.66.5
 requests==2.32.3
+
 
